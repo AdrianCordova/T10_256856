@@ -1,0 +1,134 @@
+html,
+body
+{
+	width: 100%;
+}
+
+body
+{
+	width: 100%;
+	font-weight: lighter;
+	margin-top: 0;
+	background-color: gray;
+}
+
+button
+{
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	box-shadow: none;
+	border: 1px solid black;
+	font-size: 15px;
+	background-color: blue;
+	color: white;
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+body > div
+{
+	width: 80%;
+	margin: 10px auto;
+	padding: 0;
+	border-radius: 10px;
+	background-position: center;
+}
+
+input[type="text"], input[type="tel"]
+{
+	width: 400px;
+	color: black;
+	height: 40px;
+	margin: 2px 6px 16px 0px;
+	outline: 0 none;
+	padding: 0 5px;
+	font-size: 20px;
+	font-weight: lighter;
+	border: 1px solid blue;
+	border-radius: 10px;
+	outline: none;
+}
+
+input[type="tel"]
+{
+	width: 100px;
+}
+
+table
+{
+	float: center;
+	width: 90%;
+	margin: 0 20px 0 0;
+}
+
+th, td
+{
+	padding: 2px 10px;
+	font-weight: lighter;
+}
+
+
+th
+{
+	background-color: blue;
+	color: white;
+	height: 40px;
+}
+
+thead tr th:first-child {
+	width: 400px;
+}
+
+tbody td[colspan="5"]
+{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	border: none;
+	height: 40px;
+}
+
+tbody tr[cilspan="5"]
+{
+	background-color: white;
+}
+
+tbody td
+{
+	height: 40px;
+	border-top: solid lightgray 1px;
+}
+
+tfoot
+{
+	background-color: blue;
+}
+
+tfoot td
+{
+	height: 40px;
+	color: white;
+	text-align: right;
+}
+
+tfoot tr td:nth-child(2){
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+tfoot tr:last-child
+{
+	background-color: grey;
+	border: none;
+}
+
+div div p
+{
+	padding: 15px;
+	font-size: 18px;
+}
